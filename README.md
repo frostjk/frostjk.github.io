@@ -1,16 +1,15 @@
-
 <!DOCTYPE html>
 
 <html lang="en">
   <head>
     <meta charset="utf-8" />
 
-    <title>Калькулятор Близости</title>
+    <title>Intimacy Points Calculator</title>
     <meta
       name="description"
-      content="Легенда Феникса - Калькулятор Близости"
+      content="Legend of Phoenix - Intimacy Points Calculator"
     />
-    <meta name="author" content="Mo" />
+    <meta name="author" content="Elvie" />
     <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link
       href="https://fonts.googleapis.com/css2?family=Pangolin&display=swap"
@@ -46,11 +45,19 @@
           <a class="navbar-item" href="intimacy.html">
             Intimacy Calculator
           </a>
+    
+          <a class="navbar-item" href="promote.html">
+            Servant Garments
+          </a>
+
+          <a class="navbar-item" href="ingots.html">
+            Ingots Calculator
+          </a>
     </div>
   </nav>
     <div class="center-container">
       <div class="center-box mt-6">
-        <h1 class="title center-text">Калькулятор Близости</h1>
+        <h1 class="title center-text">Intimacy Points Calculator</h1>
         <div class="row">
           <img src="images/whiteJade.png" class="icon"/>
           <input type="number" id="white" placeholder="enter quantity" />

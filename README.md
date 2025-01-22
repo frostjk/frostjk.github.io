@@ -80,9 +80,6 @@
         </div>
         <button onclick="calculate()">Подсчитать</button>
         <h2 id="title" class="center-text"></h2>
-        <div>
-          <button onclick="intimacy()">Show me</button>
-          <div id="total" class="total center-text"></div>
         </div>
       </div>
     </div>

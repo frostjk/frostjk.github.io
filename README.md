@@ -42,7 +42,7 @@
     </div>
     <div class="navbar-menu" id="nav-links">
         <div class="navbar-start">
-          <a class="navbar-item" href="intimacy.html">
+          <a class="navbar-item" href="README.md">
             Калькулятор Близости
           </a>
     

@@ -4,12 +4,12 @@
   <head>
     <meta charset="utf-8" />
 
-    <title>Intimacy Points Calculator</title>
+    <title>Калькулятор Близости</title>
     <meta
       name="description"
-      content="Legend of Phoenix - Intimacy Points Calculator"
+      content="Легенда Феникса - Калькулятор Близости"
     />
-    <meta name="author" content="Elvie" />
+    <meta name="author" content="Mo" />
     <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link
       href="https://fonts.googleapis.com/css2?family=Pangolin&display=swap"
@@ -31,8 +31,8 @@
   <body>
     <nav class="navbar is-fixed-top" role="navigation" aria-label="main navigation">
       <div class="navbar-brand">
-        <a class="navbar-item" href="https://elviec.github.io/lop">
-          Elvie's LOP
+        <a class="navbar-item" href="https://frostjk.github.io">
+          Mo's LOP
         </a>
       <a role="button" class="navbar-burger" id="burger" aria-label="menu" aria-expanded="false">
         <span aria-hidden="true"></span>
@@ -43,11 +43,11 @@
     <div class="navbar-menu" id="nav-links">
         <div class="navbar-start">
           <a class="navbar-item" href="intimacy.html">
-            Intimacy Calculator
+            Калькулятор Близости
           </a>
     
-          <a class="navbar-item" href="promote.html">
-            Servant Garments
+          <a class="navbar-item" href="banquet.html">
+            Калькулятор Банкетный Котик
           </a>
 
           <a class="navbar-item" href="ingots.html">
@@ -57,7 +57,7 @@
   </nav>
     <div class="center-container">
       <div class="center-box mt-6">
-        <h1 class="title center-text">Intimacy Points Calculator</h1>
+        <h1 class="title center-text">Калькулятор Близости</h1>
         <div class="row">
           <img src="images/whiteJade.png" class="icon"/>
           <input type="number" id="white" placeholder="enter quantity" />
@@ -78,23 +78,13 @@
           <img src="images/staminaPill.png" class="icon"/>
           <input type="number" id="stamina" placeholder="enter quantity" />
         </div>
-        <button onclick="calculate()">Calculate</button>
+        <button onclick="calculate()">Подсчитать</button>
         <h2 id="title" class="center-text"></h2>
-        <div id="estimated" class="overlay estimated-points center-text"></div>
-        <h2 class="title mt-6">How many points do I need?</h2>
-        <input type="number" id="from" placeholder="from level 1" /> to
-        <input type="number" id="to" placeholder="to max level 400" />
-        <div>
-          <button onclick="intimacy()">Show me</button>
-          <div id="total" class="total center-text"></div>
         </div>
       </div>
     </div>
     <div class="note">
-      Blessing Intimacy Giftpack is estimated to give 90 points (realistic), 130
-      points (optimistic). Stamina Pill is estimated to give 50 points per pill
-      from travelling. Use this calculator as a reference only. Developed by
-      Elvie @AS.53 Mystique Guild.
+      Счастливый набор близости от 10 до 500 опыта, но мы не ведьмы, поэтому оцениваем 90 (пессимистично) и 150 (оптимистично). Шар физ силы полный рандом как часто даст близость, оцениваем 50 опыта. Создано гильдией mommies ру-сервера 207-210.
     </div>
   </body>
   <script src="menu.js"></script>
